@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+.header > .tittle{
+  margin-bottom: 20px;
+}
+body{
+  background-color: black;
+
+}
+.container{
+  margin: 0px auto;
+  padding: 0px 20px;
+  max-width: 1440px;
+}
+.tribute{
+  grid-template-columns: 3fr 1fr;
+  display: grid;
+  max-width: 1200px;
+  background: #fff;
+  color: black;
+  margin: 0px auto;
+  padding: 0px 0px 0px 20px;
+  align-items: center;    
+}
+.tribute > blockquote{ 
+  text-align: center;
+  font-size: 60px;
+} 
+.tribute > img{
+  max-width: 100%;
+}
+.bio{
+  max-width: 640px;
+  padding:0px 10px ;
+  margin: 40px auto;
+}
+.bio > h2{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.bio > p{
+  color: #fff;
+  font-size: 20px; 
+}
+.bio > hr{
+margin-top: 40px;
+}

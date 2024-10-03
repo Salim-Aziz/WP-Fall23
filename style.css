@@ -1,0 +1,12 @@
+#tran{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px;
+    transition-property: background-color;
+    transition-duration: 2s;
+
+}
+#tran:hover{
+    background-color: blanchedalmond;
+}
